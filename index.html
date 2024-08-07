@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    
+    <!-- Link Special Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="fontsheet"/>
+
+    <!-- Link local style.css file -->
+    <link rel="stylesheet" href="./home.css"/>
+</head>
+<body>
+  
+
+<!-- Headers -->
+<section class="gradient-background">   
+  <div class="container" id="top">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+      <ul class="nav nav-masthead nav-underline col-12 col-md-auto mb-2 justify-content-center mb-md-0 py-5">
+        <li class="nav-item"><a href="./index.html" class="nav-link active px-2 me-5" aria-current="page">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+            </svg>
+            Home</a></li>
+        <li class="nav-item"><a href="./Profile.html" class="nav-link px-2 me-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+            </svg>
+            My Profile</a></li>
+        <li class="nav-item"><a href="./Project.html" class="nav-link px-2 me-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cast" viewBox="0 0 16 16">
+                <path d="m7.646 9.354-3.792 3.792a.5.5 0 0 0 .353.854h7.586a.5.5 0 0 0 .354-.854L8.354 9.354a.5.5 0 0 0-.708 0"/>
+                <path d="M11.414 11H14.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h3.086l-1 1H1.5A1.5 1.5 0 0 1 0 10.5v-7A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-2.086z"/>
+            </svg>
+            My Projects</a></li>
+        <li class="nav-item"><a href="./Contact.html" class="nav-link px-2 me-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5"/>
+            </svg>
+              Contact Me</a></li>
+      </ul>
+    </header>
+ </div> 
+
+<!-- Heroes  -->
+ <div class="container col-xxl-10 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6 py-5 my-4">
+        <img src="./asset/home-header-img.jpg" class="d-block mx-lg-auto img-fluid" alt="header-bar" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1.5 mb-3">A creative software developer</h1>
+        <p class="lead">Blends technical prowess with artistic vision to design and build innovative digital solutions. Excel in coding languages and frameworks, using them to develop user-friendly and visually captivating applications.</p>
+      </div>
+    </div>
+ </div>
+</section>
+
+<!-- profile pic -->
+<div class="container">
+ <div class="pt-60 pb-130 mt-30">
+   <div class="row gh-1 gv-5 align-items-center justify-content-center text-center text-lg-start">
+     <div class="col-auto order-1 order-lg-3 show-on-scroll show-on-scroll-ready" data-show-delay="200" data-show-duration="600" style="transition-duration: 600ms; opacity: 1; transform: translateY(0px);">
+       <div class="shape-parent lines-style-2">
+         <div class="shape mt-n30 ms-n30 me-100 me-lg-0 d-block">
+            <svg data-rellax-speed="-1" width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(0px, 12px, 0px);">
+              <circle cx="45" cy="45" r="45" fill="#F5F5F5"></circle>
+            </svg>
+          </div>
+          <img class="position-relative rounded-circle" width="180" src="./asset/profile.png" alt="">
+        </div>
+      </div>
+   </div>
+     <div class="mt-4">
+       <h2 id="name" class="col-auto text-center text-body-dark">Sienna Fan</h2>
+     </div>
+ </div>
+</div>
+
+
+<!-- SkillSet -->
+<section>
+  <div class="text-center">
+    <div class="container py-5">
+      <h2 class="text-body-emphasis">"Skilled, collaborative, organized, passionate full stack developer"</h2>
+
+      <div class="row">
+       <div class="d-flex gap-4 justify-content-center py-5">
+        <span class="badge d-flex align-items-center p-2 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill">
+          JavaScript ES6+
+        </span>
+        <span class="badge d-flex align-items-center p-2 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill">
+          HTML5 & CSS3
+        </span>
+        <span class="badge d-flex align-items-center p-2 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill">
+          ReactJS Framework
+        </span>
+        <span class="badge d-flex align-items-center p-2 pe-2 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-pill">
+          RESTful APIs/GraphQL
+        </span>
+        <span class="badge d-flex align-items-center p-2 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill">
+          State Management
+        </span>
+       </div>
+      </div>
+      <div class="row">
+       <div class="d-flex gap-4 justify-content-center">
+        <span class="badge d-flex align-items-center p-2 pe-2 text-info-emphasis bg-info-subtle border border-info-subtle rounded-pill">
+          Node.js
+        </span>
+        <span class="badge d-flex align-items-center p-2 pe-2 text-light-emphasis bg-light-subtle border border-dark-subtle rounded-pill">
+          Build Tools
+        </span>
+        <span class="badge d-flex align-items-center p-2 pe-2 text-dark-emphasis bg-dark-subtle border border-dark-subtle rounded-pill">
+          Version Control
+        </span>
+        <span class="badge d-flex align-items-center p-2 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill">
+          Responsive Design
+        </span>
+        <span class="badge d-flex align-items-center p-2 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill">
+          Testing Frameworks
+        </span>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Game ShowCase -->
+<div class="container marketing my-4">
+
+  <h3 class="pb-2">Game Showcase</h3>
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">Roll to Resolve: <span class="text-body-secondary">Let Dice Decide the Ultimate Winner! </span></h2>
+      <p class="lead">Stuck in a deadlock with someone? When skill and strategy just can't break the tie, let fate take the wheel! Grab a pair of dice and roll your way to victory. With every tumble and turn, let chance decide who truly comes out on top. When it's time to settle the score, nothing beats the thrill of a dice duel!</p>
+    </div>
+    <div class="col-md-5">
+      <video class="img-fluid" width="500" autoplay muted playsinline>
+        <source src="./asset/video folder/Dicee_game_video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">Unleash the Beat: <span class="text-body-secondary">Your Virtual Drum Kit Awaits!</span></h2>
+      <p class="lead">Transform your rhythm dreams into reality with our innovative drum simulation app! Whether you’re a seasoned drummer or just starting, experience the thrill of drumming anytime, anywhere. Tap into a world of dynamic drum sounds and customizable kits, all from the convenience of your device. Perfect your groove, lay down epic beats, and let your inner drummer shine with just a touch. With intuitive controls and stunning sound quality, our app turns every moment into a rhythm revolution. Ready to rock? </p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <video class="img-fluid" width="500" autoplay muted playsinline>
+        <source src="./asset/video folder/Drum_play_video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">Sharpen Your Mind:  <span class="text-body-secondary">Dive into Memory Mastery!</span></h2>
+      <p class="lead">Ready to give your brain a workout? Discover the ultimate memory game designed to challenge and enhance your cognitive skills while having fun! Our Memory Mastery app offers a series of engaging, brain-boosting puzzles that will test your recall, concentration, and mental agility. With vibrant graphics and progressively challenging levels, each game is a fresh opportunity to train your memory and boost your brainpower. Perfect for all ages, it’s a fun and effective way to keep your mind sharp and alert. Get ready to play？</p>
+    </div>
+    <div class="col-md-5">
+      <video class="img-fluid" width="500" autoplay muted playsinline>
+        <source src="./asset/video folder/Simon_game_vidoe.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <br/>
+  <br/>
+
+</div>
+
+<!-- Project ShowCase -->
+<div class="container">
+<h3 class="pb-2">My Projects</h3>
+<hr class="featurette-divider">
+<div class="d-flex flex-wrap justify-content-md-between my-3">
+
+<div class="mb-5">
+<div class="overlay-parent overlay-parent-1"><div class="wpex-card-thumbnail wpex-relative"><a href="https://siennafan-pro.github.io/moveItCom/"><img class="wpex-align-middle" alt="Philosophy" decoding="async" src="./asset/projectFolder/moving_company.png" width="600" height="400" loading="eager" fetchpriority="high"></a></div></div>
+<h4><a href="https://siennafan-pro.github.io/moveItCom/">MoveIt Company</a></h4>
+</div>
+
+<div class="mb-5">
+<div class="overlay-parent overlay-parent-1"><div class="wpex-card-thumbnail wpex-relative"><a href="https://siennafan-pro.github.io/TinDog-Project/"><img class="wpex-align-middle" alt="Philosophy" decoding="async" src="./asset/projectFolder/dog_social_app.png" width="600" height="400" loading="eager" fetchpriority="high"></a></div></div>
+<h4><a href="https://siennafan-pro.github.io/TinDog-Project/">TinDog Project</a></h4>
+</div>
+
+<div class="mb-5">
+<div class="overlay-parent overlay-parent-1"><div class="wpex-card-thumbnail wpex-relative"><a href="https://github.com/siennafan-pro/currencyConverter"><video class="wpex-align-middle" alt="Philosophy" decoding="async" src="./asset/video folder/currency_converter.mp4" width="600" height="400" loading="eager" fetchpriority="high" autoplay muted playsinline></video></a></div></div>
+<h4><a href="https://github.com/siennafan-pro/currencyConverter">Currency Converter Mobile App</a></h4>
+</div>
+
+<div class="mb-5">
+  <div class="overlay-parent overlay-parent-1"><div class="wpex-card-thumbnail wpex-relative"><a href="https://github.com/siennafan-pro/apexRaptor"><video class="wpex-align-middle" alt="Philosophy" decoding="async" src="./asset/video folder/apex_raptor.mp4" width="600" height="400" loading="eager" fetchpriority="high" autoplay muted playsinline></video></a></div></div>
+  <h4><a href="https://github.com/siennafan-pro/apexRaptor">ApexRaptor Mobile App</a></h4>
+  </div>
+
+</div>
+</div>
+
+
+
+<a class="btn btn-secondary back-to-top" href="#top">Scroll To Top</a>
+<br/>
+<br/>
+<!-- Footer -->
+<section class="gradient-background">
+  <div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
+      <div class="col mb-3">
+        <p class="text-body-secondary">© Sienna.Fan 2024</p>
+      </div>
+      <div class="row">
+          <ul class="nav col-md-3 list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github my-3 mx-30" viewBox="0 0 24 24">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.535 2.291 6.528 5.468 7.597.4.074.548-.17.548-.379v-1.511c-2.228.486-2.701-1.073-2.701-1.073-.364-.92-.889-1.165-.889-1.165-.727-.497.055-.486.055-.486.805.057 1.226.827 1.226.827.715 1.226 1.878.871 2.338.665.072-.518.28-.87.51-1.07-1.778-.201-3.647-.889-3.647-3.963 0-.876.312-1.593.827-2.155-.083-.203-.359-1.018.079-2.122 0 0 .673-.215 2.206.82.641-.178 1.331-.267 2.016-.271.685.004 1.375.093 2.016.271 1.532-1.035 2.2-.82 2.2-.82.438 1.104.162 1.919.079 2.122.514.562.827 1.279.827 2.155 0 3.078-1.87 3.764-3.65 3.963.288.248.546.74.546 1.487v2.2c0 .211.144.457.553.379C13.71 14.527 16 11.534 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            </a></li>
+          </ul>
+          <ul class="nav col-md-3 list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-linkedin my-3 mx-60" viewBox="0 0 24 24">
+                <path d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8.54 19H5.59V9.89h2.95v9.11zM7.06 8.47c-1.1 0-1.93-.72-1.93-1.61 0-.93.84-1.6 1.93-1.6.98 0 1.92.67 1.92 1.6 0 .89-.94 1.61-1.92 1.61zm13.7 10.53h-2.95v-4.89c0-1.16-.02-2.66-1.62-2.66-1.63 0-1.88 1.27-1.88 2.59v4.96h-2.95v-9.11h2.84v1.24h.04c.39-.74 1.35-1.52 2.77-1.52 2.97 0 3.52 1.95 3.52 4.49v5.9z"/>
+            </svg>
+            </a></li>
+          </ul>
+          <ul class="nav col-md-3 list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-facebook my-3 mx-90" viewBox="0 0 24 24">
+              <path d="M12.003 0H4.003C1.79 0 0 1.79 0 4.003v8.004C0 14.21 1.79 16 4.003 16H8V10.6H6.8V8.4h1.2V6.8c0-1.22.728-1.8 1.786-1.8.507 0 .94.04 1.067.058v1.238l-.732.002c-.573 0-.683.273-.683.674v.883h1.365l-.178 2.2h-1.188V16h2.336C14.21 16 16 14.21 16 12.007V4.003C16 1.79 14.21 0 12.003 0z"/>
+            </svg>
+            </a></li>
+          </ul>
+          </ul>
+        </div>
+    </footer>
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./home.js"></script>
+
+</body>
+</html>
